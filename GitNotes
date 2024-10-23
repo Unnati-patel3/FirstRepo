@@ -1,0 +1,39 @@
+Git --> is a distributed revision control and 
+    --> source code management system 
+Version Control System is a Software.
+
+Function :
+1. Allows developers to work simultaneously.
+2. Does not allow overwriting each other’s changes.
+3. Maintains a history of every version.
+
+Types : 1. Centralized version control system (CVCS).
+		2. Distributed/Decentralized version control system (DVCS).
+
+Advantages: 1. Free and Open Source 
+			2. Fast and Small
+			3. Implicit backup -> multiple copies 
+			4. Security -> uses Cryptographic hash function (secure)
+			5. No need of powerful hardware 
+			6. Easier branching 
+
+DVCS Terminoloies:  1. Local Repository
+					-> private workplace as a working copy 
+					-> and private copy of the whole repository
+2. Working Directory and Staging Area or Index
+-> doesn't track the each and every modified files 
+-> commit considered for only those files that are in the staging area 
+
+Basic Workflow of the Git: 
+
+Step-1: You modify a files from the working directory 
+Step=2: You add this file to the staging area
+Step-3: you may perform the commit operation that moves the files from the staging 
+area
+
+GIT COMMMANDS:
+1. $cd filepath
+2. $git clone <filename>
+3. $git status 
+4. $git add <filename>
+5. 
